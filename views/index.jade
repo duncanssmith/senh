@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  h2= info
+  p Welcome to #{info}
+  h3=testString1
+  p Welcome to #{testString1}
+
+
+    h1 Jade - node template engine
+    #container
+      - if (youAreUsingJade)
+         You are amazing
+      - else
+         Get Get on it
+
+    
+
