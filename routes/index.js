@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express', info: 'Some string', testString1: 'More stuff here' });
+  res.render('index', { title: 'PalmC', youAreUsingJade: true, imagePath: '/images/esperanza_spalding.jpg' });
 });
 
 module.exports = router;
