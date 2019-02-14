@@ -1,9 +1,15 @@
 extends layout
 
 block content
-  include nav2
-  h1 Coeliac disease
-  p Coeliac disease is a genetically transmitted autoimmune disorder of the small intestine that occurs in those predisposed people of all ages from middle infancy onward.
-  p Symptoms include chronic diarrhoea, failure to thrive (in children) and fatigue, but these may be absent, and symptoms in other organ systems have been described.
-  p Proper nutrition is essential in managing coeliac disease, and a nutritional consultation is highly recommended.
-
+  include _nav0
+  .container-fluid.jumbotron
+    h2 #{title}
+    .row
+      .col-2
+        include _nav2
+      .col-8
+        h1 Coeliac disease
+        p Coeliac disease is a genetically transmitted autoimmune disorder of the small intestine that occurs in those predisposed people of all ages from middle infancy onward.
+        p Symptoms include chronic diarrhoea, failure to thrive (in children) and fatigue, but these may be absent, and symptoms in other organ systems have been described.
+        p Proper nutrition is essential in managing coeliac disease, and a nutritional consultation is highly recommended.
+      .col-2

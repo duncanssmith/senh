@@ -1,11 +1,18 @@
 extends layout
 
 block content
-  h1 Enquiries
-  form(action="", method="post")
-    input#userId(type="email", name="")
-    br
-    input#password(type="password", name="")
-    br
-    input#submit(type="submit", name="submit", label="kjsdfkj")
-    input#submit(type="submit", name="cancel")
+  include _nav0
+  .container-fluid.jumbotron
+    h2 #{title}
+    .row
+      .col-2
+      .col-8
+        h1 Enquiries
+        form(action="", method="post")
+          input#userId(type="email", name="")
+          br
+          input#password(type="password", name="")
+          br
+          input#submit(type="submit", name="submit", label="kjsdfkj")
+          input#submit(type="submit", name="cancel")
+      .col-2
