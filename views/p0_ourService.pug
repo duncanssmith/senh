@@ -2,7 +2,7 @@ extends layout
 
 block content
   include _nav0
-  .container-fluid.jumbotron
+  .container-fluid.jumbotron(style="background:#efedde")
     h2 #{title}
     .row
       .col-2
@@ -16,3 +16,6 @@ block content
         p South East Nutrition and Health are committed to a high level of professionalism and quality and all our work is based on current scientific research and knowledge in order to provide the best possible dietary advice and recommendations.
         p Please use the links on this page to find out more about our service.
       .col-2
+        .card
+          .card-body
+            img(src="images/img_main.jpg" width="100px")
