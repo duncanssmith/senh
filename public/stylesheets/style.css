@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+
+.jumbotron {
+  background: #efedde;
+  color: rgb(55, 75, 55, 1);
+}
