@@ -3,11 +3,10 @@ extends layout
 block content
   include _nav0
   .container-fluid.jumbotron
-    h2 #{title}
     .row
       .col-2
       .col-8
-        h1 Enquiries
+        h3 Enquiries
         form(action="", method="post")
           input#userId(type="email", name="")
           br
