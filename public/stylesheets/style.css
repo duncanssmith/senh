@@ -25,6 +25,10 @@ a {
   color: rgb(40,40,40,.8);
   background: #efedde;
 }
+.nav-secondary > ul > li > a {
+  color: rgb(25,95,55,.9);
+  font-size: 1.2em;
+}
 
 /* .card .card-body .nav-main a { */
   /* color: rgb(255,255,255,1); */
