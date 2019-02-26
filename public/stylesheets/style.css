@@ -7,17 +7,33 @@ a {
   color: #00B7FF;
 }
 
-.card .nav-main a {
-  color: rgb(255,255,255,1);
-}
-
-.card-body {
+.nav-main {
   background:#41CDA0;
 }
-.card-body a {
+.nav-main a {
   color: rgb(255,255,255,1);
   font-size: 1.2em;
 }
+.nav-main > span {
+  color: rgb(255,255,255,1);
+  font-size: 1.2em;
+}
+.nav-secondary {
+  background: #f0eedf;
+}
+.nav-secondary > ul > li {
+  color: rgb(40,40,40,.8);
+  background: #efedde;
+}
+
+/* .card .card-body .nav-main a { */
+  /* color: rgb(255,255,255,1); */
+/* } */
+
+/* .card .card-body .nav-main a { */
+  /* color: rgb(255,255,255,1); */
+  /* font-size: 1.2em; */
+/* } */
 
 .jumbotron {
   background: #efedde;
