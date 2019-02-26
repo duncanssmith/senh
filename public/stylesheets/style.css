@@ -7,6 +7,18 @@ a {
   color: #00B7FF;
 }
 
+.card .nav-main a {
+  color: rgb(255,255,255,1);
+}
+
+.card-body {
+  background:#41CDA0;
+}
+.card-body a {
+  color: rgb(255,255,255,1);
+  font-size: 1.2em;
+}
+
 .jumbotron {
   background: #efedde;
   color: rgb(55, 75, 55, 1);
