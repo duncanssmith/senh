@@ -112,8 +112,8 @@ router.get('/Contact', function(req, res, next) {
 });
 
 /* GET consultation page. */
-// router.get('/Enquiries', function(req, res, next) {
-  // res.render('p5_enquiry', { title: 'Senh: Enquiry' });
-// });
+router.get('/Proto', function(req, res, next) {
+  res.render('000_prototype', { title: 'Proto' });
+});
 
 module.exports = router;
