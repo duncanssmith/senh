@@ -1,15 +1,16 @@
-include _nav0
-.container-fluid.jumbotron
-  .row
-    .col-5.col-sm-4.col-md-3.col-lg-2
-      include _nav1
-    .col-7.col-sm-8.col-md-9.col-lg-10
-      .row
-        .col-6
-          block main
-          h1 main
-        .col-6
-          .card
-            .card-body
-              block images
-              h1 images
+extends layout0
+
+block content
+  block banner
+  .container-fluid.jumbotron
+    .row
+      .col-5.col-sm-4.col-md-3.col-lg-2
+        block sidebar
+      .col-7.col-sm-8.col-md-9.col-lg-10
+        .row
+          .col-6
+            block main
+          .col-6
+            .card
+              .card-body
+                block images
