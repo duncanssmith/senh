@@ -1,19 +1,16 @@
-extends layout
+extends structure
 
-block content
+block banner
   include _nav0
-  .container-fluid.jumbotron
-    .row
-      .col-5.col-sm-4.col-md-3.col-lg-2
-        include _nav2
-      .col-7.col-sm-8.col-md-9.col-lg-10
-        .row
-          .col-6
-            h3 Your Health
-            p South East Nutrition and Health can help with your diet in many ways, however it may be that you have a particular medical condition related to your diet.
-            p There are several diseases and conditions that have specific diet-related causes or symptoms. These include type 2 diabetes, irritable bowel syndrome (IBS) and coeliac disease for example. There are other conditions that are affected by diet over time, such as heart disease. And there are some conditions such as allergies that are manageable through testing and avoidance of particular foods.
-            p The links on this page give details about medical conditions that can be diet-related.
-          .col-6
-            .card
-              .card-body
-                img(src="images/img_main.jpg" width="200px")
+
+block sidebar
+  include _nav2
+
+block main
+  h3 Your Health
+  p South East Nutrition and Health can help with your diet in many ways, however it may be that you have a particular medical condition related to your diet.
+  p There are several diseases and conditions that have specific diet-related causes or symptoms. These include type 2 diabetes, irritable bowel syndrome (IBS) and coeliac disease for example. There are other conditions that are affected by diet over time, such as heart disease. And there are some conditions such as allergies that are manageable through testing and avoidance of particular foods.
+  p The links on this page give details about medical conditions that can be diet-related.
+
+block images
+  img(src="images/img_main.jpg" width="200px")

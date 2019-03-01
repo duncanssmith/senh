@@ -1,18 +1,15 @@
-extends layout
+extends structure
 
-block content
+block banner
   include _nav0
-  .container-fluid.jumbotron
-    .row
-      .col-5.col-sm-4.col-md-3.col-lg-2
-        include _nav1
-      .col-7.col-sm-8.col-md-9.col-lg-10
-        .row
-          .col-6
-            h3 Contact
-            p South East Nutrition and Health is a dietetic consultancy based in Guildford, Surrey.
-            p Please call Seamus Kirk: 07798 526 571
-          .col-6
-            .card
-              .card-body
-                img(src="images/blank_your_health.png" width="100px")
+
+block sidebar
+  include _nav1
+
+block main
+  h3 Contact
+  p South East Nutrition and Health is a dietetic consultancy based in Guildford, Surrey.
+  p Please call Seamus Kirk: 07798 526 571
+
+block images
+  img(src="images/blank_your_health.png" width="100px")

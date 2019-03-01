@@ -1,18 +1,17 @@
-extends layout
+extends structure
 
-block content
+block banner
   include _nav0
-  .container-fluid.jumbotron
-    .row
-      .col-5.col-sm-4.col-md-3.col-lg-2
-        include _nav1
-      .col-7.col-sm-8.col-md-9.col-lg-10
-        h3 Enquiries
-        form(action="", method="post")
-          input#userId(type="email", name="")
-          br
-          input#password(type="password", name="")
-          br
-          input#submit(type="submit", name="submit", label="kjsdfkj")
-          input#submit(type="submit", name="cancel")
-      .col-2
+
+block sidebar
+  include _nav1
+
+block main
+  h3 Enquiries
+  form(action="", method="post")
+    input#userId(type="email", name="")
+    br
+    input#password(type="password", name="")
+    br
+    input#submit(type="submit", name="submit", label="kjsdfkj")
+    input#submit(type="submit", name="cancel")
